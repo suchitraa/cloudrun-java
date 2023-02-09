@@ -13,7 +13,7 @@ public class FunRestController {
 	
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello Java PathwayTips World! Time on server is " + LocalDateTime.now();
+		return "Hello Java PathwayTips World! Time on server is " + LocalDateTime.now() + " version 2";
 	}
 	
 }
